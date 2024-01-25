@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
+body,
+html {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+.location {
+  height: 20px;
+}
+/* navbar */
+.nav--container {
+  background-color: #f55a5a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  color: white;
+  line-height: 18px;
+  height: 70px;
+}
+
+.nav--title {
+  font-weight: 500;
+  letter-spacing: -0.075em;
+}
+
+.nav--logo {
+  height: 30px;
+}
+/* journal */
+.card {
+  padding: 32px 0;
+  margin: 48px 64px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.card--details {
+  height: 268px;
+}
+.card--img {
+  width: 225px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.card--info {
+  display: flex;
+  margin-top: 1rem;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.card--info > a {
+  margin-left: 18px;
+  color: grey;
+}
+
+.card--country {
+  letter-spacing: 0.15rem;
+  margin: 0;
+}
+
+.card--title {
+  font-size: 2.5rem;
+  margin: 5px 0;
+}
+.card--dates {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-weight: 700;
+}
+
+.card--date {
+  font-size: 18px;
+  margin: 15px 0;
+}
+
+.card--description {
+  font-size: 20px;
+  line-height: 150%;
+  font-weight: 400;
+  color: #2b283a;
+  margin-top: 0;
+}
